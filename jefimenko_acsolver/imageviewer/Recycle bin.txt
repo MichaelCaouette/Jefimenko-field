@@ -1,0 +1,13 @@
+        # Prepare the list of label if the user doesn't provide. 
+        if self.list_label == -1:
+            self.my_list_label = []
+            self.j = 0 
+            for self.i_row in range(self.nrows):
+                for self.i_col in range(self.ncols):            
+                    # Indice of the slice to show.
+                    i_to_show = self.j*int(self.N_slice/self.N_plots) 
+                    text = '%d/%d'%(i_to_show, self.N_slice)
+                    self.my_list_label.append(text)
+                    self.j += 1
+        else:
+            self.my_list_label = self.list_label

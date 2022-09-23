@@ -1,0 +1,11 @@
+Equal_aspect	False
+Equal_aspect|expanded	True
+Colormap	'carnage'
+Colormap|expanded	True
+nrows	3
+nrows|expanded	True
+ncols	2
+ncols|expanded	True
+Normalize_all	False
+Normalize_all|expanded	True
+

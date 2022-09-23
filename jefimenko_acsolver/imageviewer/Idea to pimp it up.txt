@@ -1,0 +1,7 @@
+Here are idea to improve the slice viewer. 
+
+For the grid view:
+- allow the user to choose the minimum and maximum slice to show. 
+
+Allow exportation into Nifty file ?
+Because the nifty viewer are super cool.
